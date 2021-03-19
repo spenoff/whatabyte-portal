@@ -15,6 +15,7 @@ const port = process.env.PORT || 8000;
 /**
  *  App Configuration
  */
+app.set("views", path.join(__dirname, "views"));
 
 /**
  * Routes Definitions
